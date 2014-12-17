@@ -2,41 +2,6 @@
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_K0IfsIYQEeSf_dJG2SaUCg" selectedViews="_K1r-4IYQEeSf_dJG2SaUCg _tJfPMIYkEeSf_dJG2SaUCg _tJq1YIYkEeSf_dJG2SaUCg _tKxooIYkEeSf_dJG2SaUCg" version="8.1.1">
   <models xmi:type="ecore:EPackage" href="Ernaehrungsplan.ecore#/"/>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_K1r-4IYQEeSf_dJG2SaUCg" initialized="true">
-    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_K34XQIYQEeSf_dJG2SaUCg" name="Ernaehrungsplan class diagram">
-      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_K34XRoYQEeSf_dJG2SaUCg" source="GMF_DIAGRAMS">
-        <data xmi:type="notation:Diagram" xmi:id="_K34XR4YQEeSf_dJG2SaUCg" type="Sirius" element="_K34XQIYQEeSf_dJG2SaUCg" measurementUnit="Pixel">
-          <children xmi:type="notation:Node" xmi:id="_K34XSYYQEeSf_dJG2SaUCg" type="2001" element="_K34XQYYQEeSf_dJG2SaUCg">
-            <children xmi:type="notation:Node" xmi:id="_K34-UIYQEeSf_dJG2SaUCg" type="5002">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_K34-UYYQEeSf_dJG2SaUCg" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_K38BoIYQEeSf_dJG2SaUCg" type="3005" element="_K34XQoYQEeSf_dJG2SaUCg">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_K38BoYYQEeSf_dJG2SaUCg" fontName=".Helvetica Neue DeskInterface"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K38BooYQEeSf_dJG2SaUCg"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_K34XSoYQEeSf_dJG2SaUCg" fontName=".Helvetica Neue DeskInterface" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K34XS4YQEeSf_dJG2SaUCg" width="672" height="67"/>
-          </children>
-          <styles xmi:type="notation:DiagramStyle" xmi:id="_K34XSIYQEeSf_dJG2SaUCg"/>
-        </data>
-      </ownedAnnotationEntries>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_K34XQYYQEeSf_dJG2SaUCg" width="-1" height="-1">
-        <target xmi:type="ecore:EPackage" href="Ernaehrungsplan.ecore#/"/>
-        <semanticElements xmi:type="ecore:EPackage" href="Ernaehrungsplan.ecore#/"/>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_K34XQoYQEeSf_dJG2SaUCg" showIcon="false" labelPosition="node" workspacePath="/org.eclipse.emf.ecoretools.design/icons/full/back/empty.svg">
-          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_K34XQ4YQEeSf_dJG2SaUCg"/>
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']/@style"/>
-          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_K34XRIYQEeSf_dJG2SaUCg"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']"/>
-      </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
-      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_K34XRYYQEeSf_dJG2SaUCg"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
-      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
-      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
-      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']/@ownedRepresentationExtensions[name='Entities%20With%20Archetypes']/@layers[name='Archetypes']"/>
-      <target xmi:type="ecore:EPackage" href="Ernaehrungsplan.ecore#/"/>
-    </ownedRepresentations>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_xHJXkIYkEeSf_dJG2SaUCg" name="Ernaehrungsplan class diagram">
       <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_xHJ-oIYkEeSf_dJG2SaUCg" source="GMF_DIAGRAMS">
         <data xmi:type="notation:Diagram" xmi:id="_xHJ-oYYkEeSf_dJG2SaUCg" type="Sirius" element="_xHJXkIYkEeSf_dJG2SaUCg" measurementUnit="Pixel">
@@ -332,7 +297,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_AwUr5IYlEeSf_dJG2SaUCg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_8LrcAIYkEeSf_dJG2SaUCg" name="kcal : EInt = 0" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@547b2a15{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Person/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_8LrcAIYkEeSf_dJG2SaUCg" name="kcal : EInt = 0" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Person/kcal"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Person/kcal"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_--0SAIYkEeSf_dJG2SaUCg" labelAlignment="LEFT">
@@ -343,7 +308,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__zyyMIYkEeSf_dJG2SaUCg" name="name : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@79196cc5{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Person/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__zyyMIYkEeSf_dJG2SaUCg" name="name : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Person/name"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Person/name"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_AwV6AIYlEeSf_dJG2SaUCg" labelAlignment="LEFT">
@@ -369,7 +334,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_gurpdIYmEeSf_dJG2SaUCg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eEDPMIYmEeSf_dJG2SaUCg" name="name : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@85d5966{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Gericht/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eEDPMIYmEeSf_dJG2SaUCg" name="name : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Gericht/name"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Gericht/name"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_fUmREIYmEeSf_dJG2SaUCg" labelAlignment="LEFT">
@@ -380,7 +345,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_fzJOQIYmEeSf_dJG2SaUCg" name="kommentar : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@29e104fb{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Gericht/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_fzJOQIYmEeSf_dJG2SaUCg" name="kommentar : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Gericht/kommentar"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Gericht/kommentar"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_guteoIYmEeSf_dJG2SaUCg" labelAlignment="LEFT">
@@ -466,7 +431,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_YqyEdIYmEeSf_dJG2SaUCg" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_U1yI0IYmEeSf_dJG2SaUCg" name="name : EString" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@11131fad{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Zutat/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_U1yI0IYmEeSf_dJG2SaUCg" name="name : EString" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Zutat/name"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Zutat/name"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_WHfoUIYmEeSf_dJG2SaUCg" labelAlignment="LEFT">
@@ -477,7 +442,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XhL_IIYmEeSf_dJG2SaUCg" name="kcal : EInt = 0" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@34613814{platform:/resource/MBSE-Ernaehrungsplan/model/Ernaehrungsplan.ecore#//Zutat/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XhL_IIYmEeSf_dJG2SaUCg" name="kcal : EInt = 0" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Zutat/kcal"/>
           <semanticElements xmi:type="ecore:EAttribute" href="Ernaehrungsplan.ecore#//Zutat/kcal"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Yqz5oIYmEeSf_dJG2SaUCg" labelAlignment="LEFT">
