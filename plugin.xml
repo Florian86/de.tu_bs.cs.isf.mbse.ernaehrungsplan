@@ -9,8 +9,8 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated Ernaehrungsplan -->
       <package
-            uri="http://www.example.org/Ernaehrungsplan"
-            class="de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage"
+            uri="http://www.example.org/ernaehrungsplan"
+            class="de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage"
             genModel="model/Ernaehrungsplan.genmodel"/>
    </extension>
 

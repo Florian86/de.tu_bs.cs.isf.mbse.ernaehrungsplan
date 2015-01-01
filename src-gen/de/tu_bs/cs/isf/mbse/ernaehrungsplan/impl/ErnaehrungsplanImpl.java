@@ -1,11 +1,11 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person;
 
 import java.util.Collection;
 
@@ -28,8 +28,8 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl#getEnthaelt <em>Enthaelt</em>}</li>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl#getBestehtAus <em>Besteht Aus</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl#getEnthaelt <em>Enthaelt</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl#getBestehtAus <em>Besteht Aus</em>}</li>
  * </ul>
  * </p>
  *

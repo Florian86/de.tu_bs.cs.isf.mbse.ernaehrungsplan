@@ -1,17 +1,17 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanFactory;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Hauptbestandteil;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Salat;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Sosse;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanFactory;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Hauptbestandteil;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Salat;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Sosse;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -94,7 +94,7 @@ public class ErnaehrungsplanPackageImpl extends EPackageImpl implements Ernaehru
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage#eNS_URI
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */

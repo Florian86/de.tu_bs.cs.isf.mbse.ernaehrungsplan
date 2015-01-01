@@ -1,6 +1,6 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.EReference;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanFactory
+ * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanFactory
  * @model kind="package"
  * @generated
  */
@@ -30,7 +30,7 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNAME = "Ernaehrungsplan";
+	String eNAME = "ernaehrungsplan";
 
 	/**
 	 * The package namespace URI.
@@ -38,7 +38,7 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.example.org/Ernaehrungsplan";
+	String eNS_URI = "http://www.example.org/ernaehrungsplan";
 
 	/**
 	 * The package namespace name.
@@ -46,7 +46,7 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_PREFIX = "Ernaehrungsplan";
+	String eNS_PREFIX = "ernaehrungsplan";
 
 	/**
 	 * The singleton instance of the package.
@@ -54,14 +54,14 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	ErnaehrungsplanPackage eINSTANCE = de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl.init();
+	ErnaehrungsplanPackage eINSTANCE = de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl <em>Ernaehrungsplan</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl <em>Ernaehrungsplan</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getErnaehrungsplan()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getErnaehrungsplan()
 	 * @generated
 	 */
 	int ERNAEHRUNGSPLAN = 0;
@@ -103,11 +103,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int ERNAEHRUNGSPLAN_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.PersonImpl <em>Person</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.PersonImpl <em>Person</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.PersonImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getPerson()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.PersonImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getPerson()
 	 * @generated
 	 */
 	int PERSON = 1;
@@ -149,11 +149,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int PERSON_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl <em>Gericht</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl <em>Gericht</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getGericht()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getGericht()
 	 * @generated
 	 */
 	int GERICHT = 2;
@@ -204,11 +204,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int GERICHT_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl <em>Zutat</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl <em>Zutat</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getZutat()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getZutat()
 	 * @generated
 	 */
 	int ZUTAT = 7;
@@ -250,11 +250,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int ZUTAT_OPERATION_COUNT = 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.HauptbestandteilImpl <em>Hauptbestandteil</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.HauptbestandteilImpl <em>Hauptbestandteil</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.HauptbestandteilImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getHauptbestandteil()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.HauptbestandteilImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getHauptbestandteil()
 	 * @generated
 	 */
 	int HAUPTBESTANDTEIL = 3;
@@ -296,11 +296,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int HAUPTBESTANDTEIL_OPERATION_COUNT = ZUTAT_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.BeilageImpl <em>Beilage</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.BeilageImpl <em>Beilage</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.BeilageImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getBeilage()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.BeilageImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getBeilage()
 	 * @generated
 	 */
 	int BEILAGE = 4;
@@ -342,11 +342,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int BEILAGE_OPERATION_COUNT = ZUTAT_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SosseImpl <em>Sosse</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SosseImpl <em>Sosse</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SosseImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSosse()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SosseImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSosse()
 	 * @generated
 	 */
 	int SOSSE = 5;
@@ -388,11 +388,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	int SOSSE_OPERATION_COUNT = ZUTAT_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SalatImpl <em>Salat</em>}' class.
+	 * The meta object id for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SalatImpl <em>Salat</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SalatImpl
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSalat()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SalatImpl
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSalat()
 	 * @generated
 	 */
 	int SALAT = 6;
@@ -435,179 +435,179 @@ public interface ErnaehrungsplanPackage extends EPackage {
 
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan <em>Ernaehrungsplan</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan <em>Ernaehrungsplan</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Ernaehrungsplan</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan
 	 * @generated
 	 */
 	EClass getErnaehrungsplan();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan#getEnthaelt <em>Enthaelt</em>}'.
+	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan#getEnthaelt <em>Enthaelt</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Enthaelt</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan#getEnthaelt()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan#getEnthaelt()
 	 * @see #getErnaehrungsplan()
 	 * @generated
 	 */
 	EReference getErnaehrungsplan_Enthaelt();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan#getBestehtAus <em>Besteht Aus</em>}'.
+	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan#getBestehtAus <em>Besteht Aus</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Besteht Aus</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan#getBestehtAus()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan#getBestehtAus()
 	 * @see #getErnaehrungsplan()
 	 * @generated
 	 */
 	EReference getErnaehrungsplan_BestehtAus();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person <em>Person</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person <em>Person</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Person</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person
 	 * @generated
 	 */
 	EClass getPerson();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person#getKcal <em>Kcal</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person#getKcal <em>Kcal</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Kcal</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person#getKcal()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person#getKcal()
 	 * @see #getPerson()
 	 * @generated
 	 */
 	EAttribute getPerson_Kcal();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person#getName()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person#getName()
 	 * @see #getPerson()
 	 * @generated
 	 */
 	EAttribute getPerson_Name();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht <em>Gericht</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht <em>Gericht</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Gericht</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht
 	 * @generated
 	 */
 	EClass getGericht();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getName()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getName()
 	 * @see #getGericht()
 	 * @generated
 	 */
 	EAttribute getGericht_Name();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getKommentar <em>Kommentar</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getKommentar <em>Kommentar</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Kommentar</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getKommentar()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getKommentar()
 	 * @see #getGericht()
 	 * @generated
 	 */
 	EAttribute getGericht_Kommentar();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getBestehtAus <em>Besteht Aus</em>}'.
+	 * Returns the meta object for the containment reference list '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getBestehtAus <em>Besteht Aus</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Besteht Aus</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht#getBestehtAus()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht#getBestehtAus()
 	 * @see #getGericht()
 	 * @generated
 	 */
 	EReference getGericht_BestehtAus();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Hauptbestandteil <em>Hauptbestandteil</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Hauptbestandteil <em>Hauptbestandteil</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Hauptbestandteil</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Hauptbestandteil
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Hauptbestandteil
 	 * @generated
 	 */
 	EClass getHauptbestandteil();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage <em>Beilage</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage <em>Beilage</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Beilage</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage
 	 * @generated
 	 */
 	EClass getBeilage();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Sosse <em>Sosse</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Sosse <em>Sosse</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Sosse</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Sosse
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Sosse
 	 * @generated
 	 */
 	EClass getSosse();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Salat <em>Salat</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Salat <em>Salat</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Salat</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Salat
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Salat
 	 * @generated
 	 */
 	EClass getSalat();
 
 	/**
-	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat <em>Zutat</em>}'.
+	 * Returns the meta object for class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat <em>Zutat</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Zutat</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat
 	 * @generated
 	 */
 	EClass getZutat();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getName <em>Name</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getName <em>Name</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getName()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getName()
 	 * @see #getZutat()
 	 * @generated
 	 */
 	EAttribute getZutat_Name();
 
 	/**
-	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}'.
+	 * Returns the meta object for the attribute '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the attribute '<em>Kcal</em>'.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getKcal()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getKcal()
 	 * @see #getZutat()
 	 * @generated
 	 */
@@ -637,11 +637,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl <em>Ernaehrungsplan</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl <em>Ernaehrungsplan</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getErnaehrungsplan()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getErnaehrungsplan()
 		 * @generated
 		 */
 		EClass ERNAEHRUNGSPLAN = eINSTANCE.getErnaehrungsplan();
@@ -663,11 +663,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 		EReference ERNAEHRUNGSPLAN__BESTEHT_AUS = eINSTANCE.getErnaehrungsplan_BestehtAus();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.PersonImpl <em>Person</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.PersonImpl <em>Person</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.PersonImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getPerson()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.PersonImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getPerson()
 		 * @generated
 		 */
 		EClass PERSON = eINSTANCE.getPerson();
@@ -689,11 +689,11 @@ public interface ErnaehrungsplanPackage extends EPackage {
 		EAttribute PERSON__NAME = eINSTANCE.getPerson_Name();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl <em>Gericht</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl <em>Gericht</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getGericht()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getGericht()
 		 * @generated
 		 */
 		EClass GERICHT = eINSTANCE.getGericht();
@@ -723,51 +723,51 @@ public interface ErnaehrungsplanPackage extends EPackage {
 		EReference GERICHT__BESTEHT_AUS = eINSTANCE.getGericht_BestehtAus();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.HauptbestandteilImpl <em>Hauptbestandteil</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.HauptbestandteilImpl <em>Hauptbestandteil</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.HauptbestandteilImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getHauptbestandteil()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.HauptbestandteilImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getHauptbestandteil()
 		 * @generated
 		 */
 		EClass HAUPTBESTANDTEIL = eINSTANCE.getHauptbestandteil();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.BeilageImpl <em>Beilage</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.BeilageImpl <em>Beilage</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.BeilageImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getBeilage()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.BeilageImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getBeilage()
 		 * @generated
 		 */
 		EClass BEILAGE = eINSTANCE.getBeilage();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SosseImpl <em>Sosse</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SosseImpl <em>Sosse</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SosseImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSosse()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SosseImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSosse()
 		 * @generated
 		 */
 		EClass SOSSE = eINSTANCE.getSosse();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SalatImpl <em>Salat</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SalatImpl <em>Salat</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.SalatImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSalat()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.SalatImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getSalat()
 		 * @generated
 		 */
 		EClass SALAT = eINSTANCE.getSalat();
 
 		/**
-		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl <em>Zutat</em>}' class.
+		 * The meta object literal for the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl <em>Zutat</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl
-		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getZutat()
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl
+		 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ErnaehrungsplanPackageImpl#getZutat()
 		 * @generated
 		 */
 		EClass ZUTAT = eINSTANCE.getZutat();

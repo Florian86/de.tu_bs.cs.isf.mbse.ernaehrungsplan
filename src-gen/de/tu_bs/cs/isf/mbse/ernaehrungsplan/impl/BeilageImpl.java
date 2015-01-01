@@ -1,9 +1,9 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage;
 
 import org.eclipse.emf.ecore.EClass;
 

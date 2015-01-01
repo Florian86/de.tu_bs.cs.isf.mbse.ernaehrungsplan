@@ -1,10 +1,10 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat;
 
 import java.util.Collection;
 
@@ -29,9 +29,9 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl#getName <em>Name</em>}</li>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl#getKommentar <em>Kommentar</em>}</li>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.GerichtImpl#getBestehtAus <em>Besteht Aus</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl#getName <em>Name</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl#getKommentar <em>Kommentar</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.GerichtImpl#getBestehtAus <em>Besteht Aus</em>}</li>
  * </ul>
  * </p>
  *

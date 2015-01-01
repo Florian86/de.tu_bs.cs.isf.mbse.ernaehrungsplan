@@ -1,9 +1,9 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage;
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -19,8 +19,8 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl#getName <em>Name</em>}</li>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.impl.ZutatImpl#getKcal <em>Kcal</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl#getName <em>Name</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl.ZutatImpl#getKcal <em>Kcal</em>}</li>
  * </ul>
  * </p>
  *

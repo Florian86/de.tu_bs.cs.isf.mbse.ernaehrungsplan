@@ -1,6 +1,6 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan;
 
 import org.eclipse.emf.ecore.EObject;
 
@@ -12,12 +12,12 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getName <em>Name</em>}</li>
- *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getName <em>Name</em>}</li>
+ *   <li>{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}</li>
  * </ul>
  * </p>
  *
- * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage#getZutat()
+ * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage#getZutat()
  * @model
  * @generated
  */
@@ -32,14 +32,14 @@ public interface Zutat extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage#getZutat_Name()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage#getZutat_Name()
 	 * @model
 	 * @generated
 	 */
 	String getName();
 
 	/**
-	 * Sets the value of the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getName <em>Name</em>}' attribute.
+	 * Sets the value of the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.
@@ -58,14 +58,14 @@ public interface Zutat extends EObject {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Kcal</em>' attribute.
 	 * @see #setKcal(int)
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage#getZutat_Kcal()
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage#getZutat_Kcal()
 	 * @model
 	 * @generated
 	 */
 	int getKcal();
 
 	/**
-	 * Sets the value of the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}' attribute.
+	 * Sets the value of the '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat#getKcal <em>Kcal</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Kcal</em>' attribute.

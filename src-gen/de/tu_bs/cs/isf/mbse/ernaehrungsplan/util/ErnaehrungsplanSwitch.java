@@ -1,8 +1,8 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.util;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.util;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.*;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.*;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.util.Switch;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage
+ * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage
  * @generated
  */
 public class ErnaehrungsplanSwitch<T> extends Switch<T> {

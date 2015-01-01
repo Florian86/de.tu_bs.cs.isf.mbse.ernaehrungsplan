@@ -1,6 +1,6 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan;
 
 
 /**
@@ -9,7 +9,7 @@ package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan;
  * <!-- end-user-doc -->
  *
  *
- * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage#getHauptbestandteil()
+ * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage#getHauptbestandteil()
  * @model
  * @generated
  */

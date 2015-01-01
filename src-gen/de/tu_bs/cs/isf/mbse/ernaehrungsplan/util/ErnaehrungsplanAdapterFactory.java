@@ -1,8 +1,8 @@
 /**
  */
-package de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.util;
+package de.tu_bs.cs.isf.mbse.ernaehrungsplan.util;
 
-import de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.*;
+import de.tu_bs.cs.isf.mbse.ernaehrungsplan.*;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -16,7 +16,7 @@ import org.eclipse.emf.ecore.EObject;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.ErnaehrungsplanPackage
+ * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.ErnaehrungsplanPackage
  * @generated
  */
 public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
@@ -120,13 +120,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan <em>Ernaehrungsplan</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan <em>Ernaehrungsplan</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Ernaehrungsplan
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan
 	 * @generated
 	 */
 	public Adapter createErnaehrungsplanAdapter() {
@@ -134,13 +134,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person <em>Person</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person <em>Person</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Person
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Person
 	 * @generated
 	 */
 	public Adapter createPersonAdapter() {
@@ -148,13 +148,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht <em>Gericht</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht <em>Gericht</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Gericht
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Gericht
 	 * @generated
 	 */
 	public Adapter createGerichtAdapter() {
@@ -162,13 +162,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Hauptbestandteil <em>Hauptbestandteil</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Hauptbestandteil <em>Hauptbestandteil</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Hauptbestandteil
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Hauptbestandteil
 	 * @generated
 	 */
 	public Adapter createHauptbestandteilAdapter() {
@@ -176,13 +176,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage <em>Beilage</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage <em>Beilage</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Beilage
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Beilage
 	 * @generated
 	 */
 	public Adapter createBeilageAdapter() {
@@ -190,13 +190,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Sosse <em>Sosse</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Sosse <em>Sosse</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Sosse
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Sosse
 	 * @generated
 	 */
 	public Adapter createSosseAdapter() {
@@ -204,13 +204,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Salat <em>Salat</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Salat <em>Salat</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Salat
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Salat
 	 * @generated
 	 */
 	public Adapter createSalatAdapter() {
@@ -218,13 +218,13 @@ public class ErnaehrungsplanAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat <em>Zutat</em>}'.
+	 * Creates a new adapter for an object of class '{@link de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat <em>Zutat</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Ernaehrungsplan.Zutat
+	 * @see de.tu_bs.cs.isf.mbse.ernaehrungsplan.Zutat
 	 * @generated
 	 */
 	public Adapter createZutatAdapter() {
