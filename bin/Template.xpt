@@ -1,0 +1,21 @@
+«IMPORT ernaehrungsplan»
+
+«DEFINE main FOR Ernaehrungsplan»
+	«EXPAND zug FOREACH zuege»
+«ENDDEFINE»
+
+«DEFINE gericht FOR Gericht»
+    «FILE "hallo.html"»
+    	<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="UTF-8"> <title>Fahrtinformationen IC2441</title> </head>
+		<body>
+		<h1>Fahrtinformationen</h1>
+		<table>
+		<tr><th>Lala</th></tr>
+		</table>
+		</body>
+		</html>
+    «ENDFILE»
+«ENDDEFINE»
