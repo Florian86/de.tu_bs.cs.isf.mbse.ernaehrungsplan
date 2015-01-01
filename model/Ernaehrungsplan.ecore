@@ -15,14 +15,14 @@
   <eClassifiers xsi:type="ecore:EClass" name="Gericht">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="kommentar" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="bestehtAus" lowerBound="1"
+        upperBound="-1" eType="#//Zutat" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Hauptbestandteil" eSuperTypes="#//Zutat"/>
   <eClassifiers xsi:type="ecore:EClass" name="Beilage" eSuperTypes="#//Zutat"/>
   <eClassifiers xsi:type="ecore:EClass" name="Sosse" eSuperTypes="#//Zutat"/>
   <eClassifiers xsi:type="ecore:EClass" name="Salat" eSuperTypes="#//Zutat"/>
   <eClassifiers xsi:type="ecore:EClass" name="Zutat">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="bestehtAus" lowerBound="1"
-        upperBound="-1" eType="#//Gericht" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="kcal" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
   </eClassifiers>
