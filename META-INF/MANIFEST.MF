@@ -7,13 +7,7 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Export-Package: de.tu_bs.cs.isf.mbse.gericht.Ernaehrungsplan,
- de.tu_bs.cs.isf.mbse.gericht.Ernaehrungsplan.impl,
- de.tu_bs.cs.isf.mbse.gericht.Ernaehrungsplan.util,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan.ernaehrungsplan,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan.ernaehrungsplan.impl,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan.ernaehrungsplan.util,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan,
+Export-Package: de.tu_bs.cs.isf.mbse.ernaehrungsplan,
  de.tu_bs.cs.isf.mbse.ernaehrungsplan.impl,
  de.tu_bs.cs.isf.mbse.ernaehrungsplan.util
 Require-Bundle: org.eclipse.jdt.core;bundle-version="3.5.0",
