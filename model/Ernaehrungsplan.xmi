@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="ASCII"?>
-<Ernaehrungsplan:Ernaehrungsplan xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Ernaehrungsplan="http://www.example.org/Ernaehrungsplan"
-    xsi:schemaLocation="http://www.example.org/Ernaehrungsplan Ernaehrungsplan.ecore"/>
+<Ernaehrungsplan:Ernaehrungsplan
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:Ernaehrungsplan="http://www.example.org/Ernaehrungsplan"
+    xsi:schemaLocation="http://www.example.org/Ernaehrungsplan Ernaehrungsplan.ecore">
+  <enthaelt
+      kcal="12345"
+      name="Homer Simpson"/>
+  <bestehtAus
+      name="Spaghetti Bolognese"
+      kommentar="">
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Beilage"
+        name="Spaghetti"/>
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Sosse"
+        name="Bolognese"/>
+  </bestehtAus>
+  <bestehtAus
+      name="Weihnachtsgans">
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Hauptbestandteil"
+        name="G&#xe4;nsekeule"/>
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Beilage"
+        name="Kn&#xf6;del"/>
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Beilage"
+        name="Rotkohl"/>
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Sosse"
+        name="G&#xe4;nseso&#xdf;e"/>
+  </bestehtAus>
+</Ernaehrungsplan:Ernaehrungsplan>
