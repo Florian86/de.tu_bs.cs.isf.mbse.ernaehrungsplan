@@ -33,4 +33,13 @@
         xsi:type="Ernaehrungsplan:Sosse"
         name="G&#xe4;nseso&#xdf;e"/>
   </bestehtAus>
+  <bestehtAus
+      name="Nudeln mit Tomatenso&#xdf;e">
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Hauptbestandteil"
+        name="Nudeln"/>
+    <bestehtAus
+        xsi:type="Ernaehrungsplan:Sosse"
+        name="Tomatenso&#xdf;e"/>
+  </bestehtAus>
 </Ernaehrungsplan:Ernaehrungsplan>
