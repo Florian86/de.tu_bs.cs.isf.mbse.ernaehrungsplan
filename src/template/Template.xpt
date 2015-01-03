@@ -1,30 +1,43 @@
-�IMPORT metamodel�
-�DEFINE main FOR Ernaehrungsplan�
-	�EXPAND person FOREACH personen�
-�ENDDEFINE�
-	
-�DEFINE person FOR Person�
-	�FILE "Hallo.html"�
+«IMPORT metamodel»
+«DEFINE main FOR Ernaehrungsplan»
+	«FILE "Hallo.html"»
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 	<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-	  <title>Titel</title>
+	  <title>Ernährungsplan</title>
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	  <link rel="stylesheet" type="text/css" href="../static/style.css" />
 	</head>
 	<body>
-	  <div id="page-wrap">
-	    <h1>�berschrift</h1><br /><br />
-	    <p>Text</p>
-	    <div id="form-area">
-	    <form method="post" action="form.php">
-	        
-	        <input type="submit" name="submit" value="Submit" class="submit-button" />
-	      </form>
-	      <div style="clear: both;"></div>
-	    </div>
-	  </div>
+		<div id="page-wrap">
+	    	«EXPAND gericht FOREACH gerichte»
+		</div>
 	</body>
 	</html>
-	�ENDFILE�
-�ENDDEFINE�
+	«ENDFILE»
+«ENDDEFINE»
+
+
+
+«DEFINE gericht FOR Gericht»
+	<h2>Gericht &quot;«this.name»&quot;</h2>
+	«EXPAND zutat FOREACH this.zutaten»
+«ENDDEFINE»
+
+
+
+«DEFINE zutat FOR Zutat»
+	«ERROR "should not happen"»
+«ENDDEFINE»
+«DEFINE zutat FOR Hauptbestandteil»
+        Hauptbestandteil: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Beilage»
+        Beilage: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Sosse»
+        Soße: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Salat»
+        Salat: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
