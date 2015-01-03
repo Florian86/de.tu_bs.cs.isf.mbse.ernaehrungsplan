@@ -5,7 +5,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="personen" lowerBound="1"
         upperBound="-1" eType="#//Person" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="gerichte" upperBound="-1"
-        eType="#//Person" containment="true"/>
+        eType="#//Gericht" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Person">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
