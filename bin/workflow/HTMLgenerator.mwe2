@@ -1,4 +1,4 @@
-module xpand.example.Generator
+module xpand.example.HTMLGenerator
 
 import org.eclipse.emf.mwe.utils.Reader
 import org.eclipse.emf.mwe.utils.StandaloneSetup
@@ -43,7 +43,7 @@ Workflow {
 	/* generate code */
 	component = Generator {
 		metaModel = mm_emf
-		expand = "template::Template::main FOR model"
+		expand = "template::HTMLTemplate::main FOR model"
 		outlet = {
 			path = dirSrcGen
 			postprocessor = formatter_java
