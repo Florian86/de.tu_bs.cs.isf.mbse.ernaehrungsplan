@@ -10,7 +10,7 @@ import org.eclipse.xpand2.output.JavaBeautifier
 import org.eclipse.xtend.expression.ResourceManagerDefaultImpl
 
 var modelUri  = "platform:/resource/de.tu_bs.cs.isf.mbse.ernaehrungsplan/src/Model.xmi"
-var dirSrcGen = "src-gen"
+var dirSrcGen = "output"
 
 
 Workflow {
