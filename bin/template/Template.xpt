@@ -1,0 +1,43 @@
+«IMPORT metamodel»
+«DEFINE main FOR Ernaehrungsplan»
+	«FILE "Hallo.html"»
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	  <title>Ernährungsplan</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	  <link rel="stylesheet" type="text/css" href="../static/style.css" />
+	</head>
+	<body>
+		<div id="page-wrap">
+	    	«EXPAND gericht FOREACH gerichte»
+		</div>
+	</body>
+	</html>
+	«ENDFILE»
+«ENDDEFINE»
+
+
+
+«DEFINE gericht FOR Gericht»
+	<h2>Gericht &quot;«this.name»&quot;</h2>
+	«EXPAND zutat FOREACH this.zutaten»
+«ENDDEFINE»
+
+
+
+«DEFINE zutat FOR Zutat»
+	«ERROR "should not happen"»
+«ENDDEFINE»
+«DEFINE zutat FOR Hauptbestandteil»
+        Hauptbestandteil: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Beilage»
+        Beilage: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Sosse»
+        Soße: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
+«DEFINE zutat FOR Salat»
+        Salat: «this.name» («this.kcal»kcal)<br />
+«ENDDEFINE»
