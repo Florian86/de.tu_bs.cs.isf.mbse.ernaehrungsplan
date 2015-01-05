@@ -10,34 +10,14 @@
 	</head>
 	<body>
 		<div id="page-wrap">
-	    	«EXPAND gericht FOREACH gerichte»
+	    	«FOREACH this.gerichte.select(e|e.name != "") AS gericht»
+				<h2>Gericht &quot;«gericht.name»&quot;</h2>
+				«FOREACH gericht.zutaten.select(e|e.name != "") AS zutat»
+					«zutat.name» («zutat.kcal» kcal)<br />
+				«ENDFOREACH»
+			«ENDFOREACH»
 		</div>
 	</body>
 	</html>
 	«ENDFILE»
-«ENDDEFINE»
-
-
-
-«DEFINE gericht FOR Gericht»
-	<h2>Gericht &quot;«this.name»&quot;</h2>
-	«EXPAND zutat FOREACH this.zutaten»
-«ENDDEFINE»
-
-
-
-«DEFINE zutat FOR Zutat»
-	«ERROR "should not happen"»
-«ENDDEFINE»
-«DEFINE zutat FOR Hauptbestandteil»
-        Hauptbestandteil: «this.name» («this.kcal»kcal)<br />
-«ENDDEFINE»
-«DEFINE zutat FOR Beilage»
-        Beilage: «this.name» («this.kcal»kcal)<br />
-«ENDDEFINE»
-«DEFINE zutat FOR Sosse»
-        Soße: «this.name» («this.kcal»kcal)<br />
-«ENDDEFINE»
-«DEFINE zutat FOR Salat»
-        Salat: «this.name» («this.kcal»kcal)<br />
 «ENDDEFINE»
