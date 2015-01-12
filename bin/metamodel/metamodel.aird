@@ -412,7 +412,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_zE5MsJf2EeSiGJ7f4kH-_w" name="istSalat : EBoolean = false" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@63b599d2{platform:/resource/de.tu_bs.cs.isf.mbse.ernaehrungsplan/src/metamodel/metamodel.ecore#//Gericht/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_zE5MsJf2EeSiGJ7f4kH-_w" name="istSalat : EBoolean = false" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="metamodel.ecore#//Gericht/istSalat"/>
           <semanticElements xmi:type="ecore:EAttribute" href="metamodel.ecore#//Gericht/istSalat"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_0IcUYJf2EeSiGJ7f4kH-_w" labelAlignment="LEFT">
@@ -593,7 +593,7 @@
           <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_BDC0hJf1EeSiGJ7f4kH-_w" red="255" green="252" blue="216"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_54UTMJf0EeSiGJ7f4kH-_w" name="menge : EInt = 0" tooltipText="&#xA;ERROR : The required feature 'eAttributeType' of 'org.eclipse.emf.ecore.impl.EAttributeImpl@3d68be61{platform:/resource/de.tu_bs.cs.isf.mbse.ernaehrungsplan/src/metamodel/metamodel.ecore#//Gericht2Zutat/newAttribute}' must be set&#xA;ERROR : The typed element must have a type">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_54UTMJf0EeSiGJ7f4kH-_w" name="menge : EInt = 0" tooltipText="">
           <target xmi:type="ecore:EAttribute" href="metamodel.ecore#//Gericht2Zutat/menge"/>
           <semanticElements xmi:type="ecore:EAttribute" href="metamodel.ecore#//Gericht2Zutat/menge"/>
           <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_BDHtAJf1EeSiGJ7f4kH-_w" labelAlignment="LEFT">
