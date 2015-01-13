@@ -6,6 +6,8 @@
         upperBound="-1" eType="#//Person" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="gerichte" upperBound="-1"
         eType="#//Gericht" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="zutaten" upperBound="-1"
+        eType="#//Zutat" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Person">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -27,7 +29,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="Sauce" eSuperTypes="#//Zutat"/>
   <eClassifiers xsi:type="ecore:EClass" name="Gericht2Zutat">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="menge" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="zutat" lowerBound="1" eType="#//Zutat"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gericht" lowerBound="1"
+        eType="#//Gericht"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="zutat" lowerBound="1" eType="#//Zutat"/>
   </eClassifiers>
 </ecore:EPackage>
