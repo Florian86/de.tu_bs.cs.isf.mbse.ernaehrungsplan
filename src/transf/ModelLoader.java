@@ -15,7 +15,7 @@ import de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel.Ernaehrungsplan;
  */
 public class ModelLoader {
     public Ernaehrungsplan loadModel(String folder, String fileName) {
-        //Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("ep", new CvResourceFactory());//EMFText missing
+        //Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("ep", new CvResourceFactory());//TODO: EMFText missing
 
         ResourceSet rs = new ResourceSetImpl();
         File orig = new File(folder + File.separator + fileName + ".ep");
