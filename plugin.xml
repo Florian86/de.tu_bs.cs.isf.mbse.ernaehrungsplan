@@ -10,7 +10,7 @@
       <!-- @generated metamodel -->
       <package
             uri="http://www.example.org/metamodel"
-            class="de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel.MetamodelPackage"
+            class="metamodel.MetamodelPackage"
             genModel="src/metamodel/metamodel.genmodel"/>
    </extension>
 

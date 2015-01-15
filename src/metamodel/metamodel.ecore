@@ -40,5 +40,7 @@
         upperBound="-1" eType="#//Person" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="zutatElement" lowerBound="1"
         upperBound="-1" eType="#//Zutat" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gerichtElement" lowerBound="1"
+        upperBound="-1" eType="#//Gericht" containment="true"/>
   </eClassifiers>
 </ecore:EPackage>
