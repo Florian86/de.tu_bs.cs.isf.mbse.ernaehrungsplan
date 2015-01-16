@@ -27,13 +27,12 @@ RULES {
 	Gericht ::= "Gericht" "{"
 				"name" name[]
 				"kommentar" kommentar['"','"']?
-				"istSalat" istSalat[]?
+				"istSalat" istSalat["ja":"nein"]?
 				"besteht aus" "{"zutaten+ "}"
 				"}";
 	
 	Ernaehrungsplan ::= "eplan" "{"
 						"personen" "(" personen[] ("," personen[])* ")"
-						"zutaten" "(" zutaten[] ("," zutaten[])* ")"
 						"gerichte" "(" gerichte[] ("," gerichte[])* ")"
 						"}";
 	
