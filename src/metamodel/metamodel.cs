@@ -1,4 +1,4 @@
-SYNTAXDEF metamodel
+SYNTAXDEF ep
 FOR <http://www.example.org/metamodel>
 START EpElement
 
