@@ -16,7 +16,6 @@ Require-Bundle: org.eclipse.xtend.profiler;resolution:=optional,
  org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.mwe.utils;bundle-version="1.0.0",
  org.eclipse.emf.ecore.xmi;bundle-version="2.5.0",
- org.eclipse.jface.text;bundle-version="3.5.0",
  org.eclipse.xpand;bundle-version="1.0.0",
  org.eclipse.xtend;bundle-version="1.0.0",
  org.eclipse.xtend.typesystem.emf;bundle-version="1.0.0",
@@ -27,13 +26,9 @@ Require-Bundle: org.eclipse.xtend.profiler;resolution:=optional,
  org.eclipse.xtend.lib,
  org.eclipse.xtend.lib.macro,
  com.google.guava,
- org.eclipse.xtext.xbase.lib
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.jface.text;bundle-version="3.9.1"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel.impl,
- de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel.util,
- metamodel,
- metamodel.impl,
- metamodel.util
-
+ de.tu_bs.cs.isf.mbse.ernaehrungsplan.metamodel.util
